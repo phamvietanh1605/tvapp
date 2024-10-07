@@ -1,0 +1,40 @@
+.container_btn {
+    .btn_wrapper {
+        min-width: 50px;
+        padding: 10px;
+        font-size: 14.5px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    .white {
+        color: rgb(255, 255, 255);
+    }
+    .bgr_black {
+        border: 1px solid rgb(255, 255, 255);
+        background-color: #000;
+        border-radius: 6px;
+        &:hover {
+            background-color: rgb(255, 255, 255);
+            color: #000;
+            transition: 0.3s;
+        }
+    }
+    .bgr_green {
+        border: 1px solid #198754; 
+        background-color: #198754;
+        border-radius: 6px;
+        &:hover {
+            background-color: #146c43;
+            transition: 0.3s; 
+        }
+    }
+    .bgr_yellow {
+        border: 1px solid #ffc720;
+        background-color: #ffc720;
+        border-radius: 6px;
+        &:hover {
+            background-color: #ffcd39;
+            transition: 0.3s;
+        }
+    }
+}
