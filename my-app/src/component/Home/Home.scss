@@ -1,0 +1,38 @@
+.container {
+    .content {
+        margin: 1.5rem auto;
+        max-width: 1320px;
+        padding: 0 12px;
+        .title {
+            font-size: 25px;
+            color: rgb(33, 37, 41);
+            margin-bottom: 8px;
+        }
+        .c_body {
+            margin-top: 48px;
+            width: 66.66%;
+            .cb_wrapper {
+                border: 1px solid rgba(0, 0, 0, .125);
+                border-radius: 6px;
+                .cbw_item {
+                    padding: 8px 16px;
+                    border-bottom: 1px solid rgba(0, 0, 0, .125);
+                    cursor: pointer;
+                    &:first-child {
+                        border-top-left-radius: 6px;
+                        border-top-right-radius: 6px;
+                    }
+                    &:last-child {
+                        border-bottom: none;
+                        border-bottom-left-radius: 6px;
+                        border-bottom-right-radius: 6px;
+                    }
+                    &:hover {
+                        background-color: #0d6efd;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
